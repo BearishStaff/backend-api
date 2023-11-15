@@ -24,7 +24,8 @@ class BackendController {
         return "HelloWorld : "+ current.toString();
     }
 
-
+    @GetMapping("/get-data")
+    fun getData(): String = "Congratulation!! You've reach achievement : GET API"
 
 
 }
